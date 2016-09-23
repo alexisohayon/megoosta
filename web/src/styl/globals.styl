@@ -1,0 +1,33 @@
+body
+    text-rendering optimizeLegibility
+    font-smoothing antialiased
+    font-family Proxima Nova
+    color #565966
+
+.disable-select
+    user-select none
+
+.truncate
+    white-space nowrap
+    overflow hidden
+    text-overflow ellipsis
+
+.pre-wrap
+  word-wrap break-word
+  white-space pre-wrap
+
+.tooltip-container
+    display block
+    position absolute
+    top 0
+    left 0
+    padding 4px 10px
+    background rgba(black, 0.8)
+    color white
+    font-size 14px
+    border-radius 4px
+    line-height 22px
+    opacity 0
+    z-index 10001
+    +query($sm)
+        display block

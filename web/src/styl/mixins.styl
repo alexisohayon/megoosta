@@ -1,0 +1,41 @@
+/**
+* Font families
+*/
+
+@font-face {
+    font-family Proxima
+    src url(../assets/fonts/proxima_nova/ProximaNova-Light.otf)
+    font-weight 300
+    font-style normal
+}
+@font-face {
+    font-family Proxima
+    src url(../assets/fonts/proxima_nova/ProximaNova-Regular.otf)
+    font-weight normal
+    font-style normal
+}
+@font-face {
+    font-family Proxima
+    src url(../assets/fonts/proxima_nova/ProximaNova-Bold.otf)
+    font-weight bold
+    font-style normal
+}
+@font-face {
+    font-family Proxima
+    src url(../assets/fonts/proxima_nova/ProximaNova-Extrabold.otf)
+    font-weight 800
+    font-style normal
+}
+
+/**
+* Global mixins
+*/
+
+$lightBlue    = #EDF9FF
+$lightGreen   = #F4FAEF
+$textColor    = #22546B
+set-placeholder-style(prop, value)
+    &::-webkit-input-placeholder
+        {prop} value
+    &::-moz-input-placeholder
+        {prop} value

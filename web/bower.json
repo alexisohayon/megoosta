@@ -1,0 +1,8 @@
+{
+  "name": "trusk-alfred-extension",
+  "version": "0.0.1",
+  "dependencies": {
+    "flexbox-grid": "git+https://Jonathan_Asquier@bitbucket.org/Jonathan_Asquier/flexbox-grid.git#v1.0.5",
+    "font-awesome": "fontawesome#~4.5.0"
+  }
+}
